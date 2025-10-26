@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/index-mobile.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="js/nav-footer.js"></script>
     <script src="js/scroll.js" defer></script>
     <script src="js/script.js" defer></script>
     <title>Chez MAJORALY</title>
@@ -142,7 +143,7 @@
         </section> -->
         <section id="contact" class="">
             <header>Nous contacter</header>
-            <form action="" method="post">
+            <form id="form" action="" method="post">
                 <fieldset>
                     <label for="prenom">
                         Votre Prénom
@@ -164,12 +165,9 @@
             </form>
         </section>
     </main>
-    <footer>
-        <?php
-        include("nav-footer/footer.html")
-        ?>
+    <footer id="footer">
+       
     </footer>
 </body>
-
 
 </html>
