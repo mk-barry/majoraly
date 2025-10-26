@@ -104,6 +104,9 @@ nav{
 
 @media screen and (max-width: 768px) {
     nav{
+        .logo{
+            font-size: 0.8rem;
+        }
         .menu{
             position: relative;
 
@@ -166,5 +169,6 @@ nav{
     }
 
 }
+
 
 
