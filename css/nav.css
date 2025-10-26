@@ -106,6 +106,9 @@ nav{
 @media screen and (max-width: 768px) {
     nav{
         .logo{
+            img{
+                widthz: 60%;
+            }
             font-size: 1.2rem;
         }
         .menu{
@@ -118,7 +121,7 @@ nav{
             .links{
                 position: absolute;
                 top: 10px;
-                right: 20px;
+                right: 35px;
                 height: 15rem;
                 /* border: 1px solid blueviolet; */
                 /* display: none; */
@@ -169,6 +172,7 @@ nav{
     }
 
 }
+
 
 
 
