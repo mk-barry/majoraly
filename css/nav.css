@@ -62,7 +62,8 @@ nav{
             align-items: center;
             font-size: 1.5rem;
             height: 100%;
-            width: 2%;
+            width: 10%;
+            justify-content: left;
 
             span{
                 position: absolute;
@@ -105,14 +106,13 @@ nav{
 @media screen and (max-width: 768px) {
     nav{
         .logo{
-            font-size: 0.8rem;
+            font-size: 1.2rem;
         }
         .menu{
             position: relative;
 
             label{
                 display: flex;
-                justify-content: left;
             }
 
             .links{
@@ -169,6 +169,7 @@ nav{
     }
 
 }
+
 
 
 
